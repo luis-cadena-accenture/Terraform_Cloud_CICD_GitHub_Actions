@@ -3,7 +3,7 @@ name: "Terraform Apply"
 on:
   push:
     branches:
-      - main
+      - update-tfc-org
 
 env:
   TF_CLOUD_ORGANIZATION: "ws-terraform-luis-cadena"
